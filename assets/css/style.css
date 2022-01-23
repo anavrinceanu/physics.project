@@ -31,7 +31,7 @@ header {
 .cta,
 .overlaycontent a {
     font-family: 'Michroma', sans-serif;
-    color: rgb(46,61,110);
+    color: rgb(134, 152, 212);
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -52,7 +52,7 @@ header {
     font-family: 'Michroma', sans-serif;
     margin-left: 20px;
     padding: 9px 15px;
-    background-color: #5683f5;
+    background-color: rgb(134, 152, 212);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -74,7 +74,7 @@ header {
     z-index: 999;
     left: 0;
     top: 0;
-    background-color: #828283;
+    background-color: rgb(46,61,110);
     overflow-x: hidden;
     transition: all 0.5s ease 0s;
 }
