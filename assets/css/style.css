@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    background-color: #ffffff;
+}
+
+.logo {
+    margin-right: auto;
+    position: relative;
+    max-width: 30%;
+    min-width: 15%;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+.navlinks a,
+.cta,
+.overlaycontent a {
+    font-family: 'Michroma', sans-serif;
+    color: rgb(46,61,110);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navlinks li {
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #828283;
+}
+
+.cta {
+    font-family: 'Michroma', sans-serif;
+    margin-left: 20px;
+    padding: 9px 15px;
+    background-color: #5683f5;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: #4494fc;
+}
+
+.menu {
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    background-color: #828283;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.overlay--active {
+    width: 100%;
+}
+
+.overlaycontent {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #4494fc;
+}
+
+.overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+    cursor: pointer;
+}
+
+.textwhite {
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Michroma', sans-serif;
+}
+
+.bg {
+    height: 300px;
+}
+
+.section-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-bg:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(226,226,226,1) 52%, rgba(237,0,48,1) 100%);;
+}
+
+.section-bg>form,
+.section-bg .container {
+    position: relative;
+    z-index: 2
+}
+
+@media only screen and (max-width: 990px) {
+    .bg {
+        height: 340px;
+    }
+
+    .textwhite {
+        font-size: 5vw;
+    }
+
+    .navlinks,
+    .cta {
+        display: none;
+    }
+    .menu {
+        margin-top: 20px;
+        display: initial;
+        color: white;
+    }
+
+    .logo {
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .overlay a {
+        font-size: 40px;
+    }
+    .overlay .close {
+        font-size: 20px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .noprev {
+        display: none;
+    }
+
+    .logo {
+        position: fixed;
+        align-items: flex-start;
+    }
+}
