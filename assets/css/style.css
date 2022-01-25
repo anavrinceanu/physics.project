@@ -191,3 +191,117 @@ header {
         align-items: flex-start;
     }
 }
+
+.istorieh2 {
+    color: rgb(134, 152, 212);
+    text-transform: uppercase;
+    font-size: 2vw;
+    letter-spacing: 1px;
+}
+
+.istorietext {
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 3vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #2e3d6e;
+}
+
+.fistorie {
+    margin-top: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    .istorieh2 {
+        font-size: 7vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fistorie {
+        margin-top: 150px;
+    }
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+.carnoth2 {
+    color: rgb(134, 152, 212);
+    text-transform: uppercase;
+    font-size: 2vw;
+    letter-spacing: 1px;
+    margin-top: 250px;
+}
+
+.carnottext {
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 3vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #2e3d6e;
+}
+
+@media only screen and (max-width: 600px) {
+    .carnoth2 {
+        font-size: 7vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fcarnot {
+        margin-top: 150px;
+    }
+}
+
+.dvoh2 {
+    color: rgb(134, 152, 212);
+    text-transform: uppercase;
+    font-size: 2vw;
+    letter-spacing: 1px;
+    margin-top: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    .dvoh2 {
+        font-size: 7vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fdvo {
+        margin-top: 150px;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: center;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.dvotext {
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 3vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #2e3d6e;
+}

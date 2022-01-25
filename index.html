@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Motoare</title>
 </head>
-<body style="background: rgb(124, 124, 124);">
+<body>
 
         <header style="position: fixed; z-index: 998; width: 100%;">
             <a class="logo" href="/"><img class="logo" src="assets/img/logo.png"></a>
@@ -19,7 +19,7 @@
                     <li><a href="#istorie"><b>Motorul lui James Watt</b></a></li>
                     <li><a href="#carnot"><b>Ciclul Carnot</b></a></li>
                     <li><a href="#dvo"><b>Diesel VS Otto</b></a></li>
-                    <li><a href="#sva"><b>Stirling VS Motorul cu abur</b></a></li>
+                    <li><a href="#sva"><b>Stirling VS Wankel</b></a></li>
                     <li><a href="#grafice"><b>Comparatia Graficelor</b></a></li>
                     <li><a href="#bibliografie"><b>Bibliografie</b></a></li>
                 </ul>
@@ -56,6 +56,99 @@
             </div>
         </section>
 
+        <br>
+        <span id="istorie"></span>
+        <section class="section">
+            <div class="fistorie">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                      <div class="section-heading">
+                        <h2 class="istorieh2">Motorul cu abur. Scurtă istorie</h2>
+                        <br>
+                        <p class="istorietext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prima mașină cu aburi a fost inventată în secolul I de către inginerul grec Heron din Alexandria, numită eolipila. O sferă goală pe dinăuntru era pivotată pe două tuburi prin care trecea aburul dintr-un mic fierbător. Aburul umplea sfera și ieșea prin țevi dispuse în părți opuse ale acesteia. Jeturile de abur care țîșneau determinau sfera să se rotească.</p>
+                        <p class="istorietext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Jeronimo de Ayanz y Beaumont</b> a primit, în 1606, brevete pentru 50 de invenţii propulsate de abur, inclusiv o pompă pentru desecarea minelor inundate. <b>Denis Papin</b>, un refugiat hughenot, a realizat lucrări folositoare la digestorul cu abur în 1679 şi a folosit pentru prima dată un piston pentru a ridica greutăţi în anul 1690.</p>
+                        <p class="istorietext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Primul dispozitiv comercial propulsat de puterea aburului a fost o pompă de apă dezvoltată de <b>Thomas Savery</b> în anul 1698. Acesta a folosit un sistem de vidare pentru a ridica apa din pământ, apoi a folosit presiunea aburului pentru a o ridica şi mai sus. Motoarele mici erau eficiente, dar modelele mai mari erau problematice, acestea dovedind că aveau o înălţime de ridicare limitată şi erau predispuse la explozii ale boilerelor. Au fost folosite în câteva mine, staţii de forare şi pentru a propulsa roţile de apă folosite la maşinăriile de textile.</p>
+                        <p class="istorietext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Primul motor performant a fost construit în <b>1712</b> de inginerul <b>Thomas Newcomen</b>, din <b>Cornwall</b>. Motorul funcţiona prin crearea unui vid parţial prin condensarea aburului sub un piston dintr-un cilindru vertical cu un piston, iar aburul rezultat a împins pistonul în sus. Când aburul s-a răcit și s-a condensat, pistonul a fost împins în jos de presiunea atmosferică. Prin intermediul unui sistem de blocuri, motorul cu aburi al lui Papen ar putea acționa diverse mecanisme, cum ar fi pompele.</p>
+                        <p class="istorietext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revoluția industrială a adus cu ea totodată și schimbări majore în domeniul termodinamicii. În anul 1776, inginerul scoțian <b>James Watt</b> reușește îmbunătățirea modelului lui Thomas Newcomen. În 1764 Watt a observat o defecțiune a motorului cu aburi Newcomen: a irosit mult abur. Watt a dedus că deșeurile rezultă din proiectarea monocilindrică a motorului cu aburi. În mai 1765, după ce s-a luptat cu problema îmbunătățirii, a găsit brusc o soluție -<b>condensator separat</b> , prima și cea mai mare invenție a sa . Watt își dăduse seama că pierderea de căldură latentă ( căldura implicată în schimbarea stării unei substanțe - de exemplu, solidă sau lichidă) era cel mai grav defect al motorului Newcomen și că, prin urmare, condensarea trebuie să se efectueze într-o cameră distinctă de cilindru, dar conectat la acesta. Watt a brevetat dispozitivul în 1769, iar în 1776, alături de partenerul său de afaceri, <b>Matthew Boulton</b> , au instalat două motoare cu abur cu condensatoare separate. Motoarele cu aburi modificate nu numai că au redus deșeurile, ci și au redus costurile cu combustibilul.</p>
+                        <p class="istorietext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;În jurul anului 1800 <b>Richard Trevithick</b> şi, independent, <b>Oliver Evans</b> în 1801, au introdus motoare ce foloseau abur la presiuni mari. Trevithick şi-a obţinut patentul în anul 1802. Aceste motoare erau mult mai puternice decât motoarele anterioare cu cilindri şi puteau fi realizate îndeajuns de mici pentru aplicaţii de transport. Din acel moment dezvoltările şi îmbunătăţirile tehnologice în tehnicile de fabricare au rezultat în proiectarea unor motoare mai eficiente care puteau fi mai mici, mai rapide sau mai puternice, depinzând de aplicaţia dorită.</p>
+                    </div>
+                    <br>
+                    <video autoplay loop class="video" muted plays-inline><source src="/assets/img/video.motor.abur.mp4" type="video/mp4"></video> 
+                    </div>
+                    </div>  
+            </div>
+        </section>
+
+        
+        <br>
+        <span id="carnot"></span>
+        <section class="section">
+            <div class="fcarnot">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                      <div class="section-heading">
+                        <h2 class="carnoth2">Ciclul Carnot</h2>
+                        <br>
+                        <p class="carnottext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;În termodinamică, ciclul Carnot este un ciclu teoretic, propus în 1820 de inginerul francez Nicolas Léonard Sadi Carnot, ciclu destinat comparării randamentului termic al mașinilor termice. Este un ciclu reversibil efectuat de o „mașină Carnot” legată la două surse de căldură de temperaturi diferite („sursa caldă” și „sursa rece”). Folosește ca agent de lucru un gaz ideal prin transformările căruia se obține lucrul mecanic.  Gazul este implicat într-o transformare ciclică, bitermă și reversibilă. Ciclul Carnot este un construct teoretic sau idealizat sau experiment mental, nu un exemplu care să funcționeze în realitate.Pe baza acestui ciclu în contextul preocupărilor legate de creșterea randamentului motoarelor termice s-a ajuns la formularea unui principiu numit principiul al doilea al termodinamicii.</p>
+                        <p class="carnottext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ciclul Carnot are cel mai mare randament termic posibil la transformarea căldurii în lucru mecanic la ciclul motor, respectiv transferă o cantitate maximă de căldură pentru un lucru mecanic dat în cazul ciclului generator. Deoarece ciclul Carnot are un randament termic maxim, se formulează un enunț privind marginea superioară a randamentului motoarelor termice care este: <i>Nu există mașină termică care să aibă un randament termic mai mare decât o mașină Carnot lucrând între aceleași limite de temperaturi.</i> În practică, randamentul unei mașini termice nu poate atinge nici măcar randamentul termic al ciclului Carnot, deoarece transformările din acest ciclu sunt considerate reversibile, un ideal imposibil de atins în mod practic. În plus, în stadiul actual al tehnicii este practic imposibilă realizarea transformărilor izoterme cu o viteză suficientă pentru aplicațiile practice, iar inerentele pierderi prin frecare, oricât ar fi ele de mici, împiedică realizarea transformărilor izoentropice.</p>
+                    </div>
+                      <br>
+                      <br>
+                    </div>
+                    </div>  
+            </div>
+        </section>
+
+        <br>
+        <span id="dvo"></span>
+        <section class="section">
+            <div class="fdvo">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                      <div class="section-heading">
+                        <h2 class="dvoh2">Motorul Diesel VS Motorul Otto</h2>
+                        <br>
+                        <br>
+                        <br>
+                        <table>
+                            <tr>
+                              <th style="width: 50%; text-transform: uppercase; color: #2e3d6e; font-family: 'Michroma', sans-serif; letter-spacing: 2px;" class="text-center">Motor Diesel</th>
+                              <th style=" text-transform: uppercase; color: #2e3d6e; font-family: 'Michroma', sans-serif;letter-spacing: 2px;">Motor Otto</th>
+                            </tr>
+                            <tr>
+                              <td>
+                                  <p class="dvotext" style=" text-transform: uppercase; color: #2e3d6e; font-family: 'Michroma', sans-serif;letter-spacing: 2px;"><b>Cum functioneaza?</b></p>
+                                  <p class="dvotext">Motorul diesel este un motor cu ardere internă în care combustibilul se aprinde datorită temperaturii ridicate create de comprimarea aerului necesar arderii, și nu prin utilizarea unui dispozitiv auxiliar, așa cum ar fi bujia în cazul motorului cu aprindere prin scânteie. Comprimarea unui gaz conduce la creșterea temperaturii sale, aceasta fiind metoda prin care se aprinde combustibilul în motoarele diesel. Aerul este aspirat în cilindri și este comprimat de către piston. Spre sfârșitul cursei de comprimare motorina (combustibilul) este pulverizată în camera de ardere cu ajutorul unui injector. Motorina se aprinde la contactul cu aerul deja încălzit prin comprimare până la o temperatura de circa 700-900 °C. Arderea combustibilului duce la creșterea temperaturii și presiunii, care acționează pistonul. Aspirarea aerului în cilindri se face prin intermediul supapelor, dispuse la capul cilindrilor. Pentru mărirea puterii, majoritatea motoarelor diesel moderne sunt supraalimentate cu scopul de a mări cantitatea de aer introdusă în cilindri. Folosirea unui răcitor intermediar pentru aerul introdus în cilindri crește densitatea aerului și conduce la un randament mai bun.</p>
+                                  <p class="dvotext" style=" text-transform: uppercase; color: #2e3d6e; font-family: 'Michroma', sans-serif;letter-spacing: 2px;"><b>Istoric</b></p>
+                                  <p class="dvotext">Numele motorului a fost dat după inginerul german Rudolf Diesel la sugestia soției sale, Martha Diesel, care în 1895 îl sfătuiește cu: Nenn ihn doch einfach Dieselmotor! („numește-l pur și simplu motor Diesel!”), ușurându-i astfel căutarea după denumirea motorului, pe care l-a inventat în 1892 și l-a patentat pe 23 februarie 1893. </p>
+                                  <p class="dvotext" style=" text-transform: uppercase; color: #2e3d6e; font-family: 'Michroma', sans-serif;letter-spacing: 2px;"><b> Materialul de lucru și modul de aprindere a acestuia:</b></p>
+                                  <p class="dvotext">Pe cand la motorina (care este mai putin rafinata), motorul are nevoie de o compresie mai mare si de temperaturi mai ridicate pentru a arde (moleculele de motorina au dimensiuni mai mari si din acest motiv ard mai greu) iar motorina in exces care nu poate fi arsa va fi eliminata pe evacuare sub forma de “fum negru”.</p>
+                                  <p class="dvotext">La motorul diesel amestecul este aprins prin compresie.</p>
+                                  <p class="dvotext">Motoarele diesel produc mai multă forță, motiv pentru care sunt utile în special atunci cand e vorba de greutăți mari, de asta la început erau folosite în mare parte pe mașinile comerciale, care transportau greutăți mari. </p>
+                                  <p class="dvotext">Acestea se vor conduce diferit, din acest motiv este recomandat sa va achizitionati o masina dotata cu motor diesel doar daca aveti de gand sa faceti mulți km în regim de autostradă sau mers constant. Avantajele unui motor diesel sunt cuplul mare și consumul scăzut, lucru care-l face mai rentabil pe termen lung dacă faceți mulți km.</p>
+                                  <p class="dvotext"><b>Fun fact!</b> Dieselul este mai ieftin decât benzina.</p>
+                              </td>
+                              <td>
+                                <p class="dvotext" style=" text-transform: uppercase; color: #2e3d6e; font-family: 'Michroma', sans-serif;letter-spacing: 2px;"><b>Cum functioneaza?</b></p>
+                                <p class="dvotext">Motorul în patru timpi este un tip de motor cu ardere internă al cărui piston face 4 curse simple într-un ciclu motor. Pistonul se mișcă într-un cilindru închis la un capăt de chiulasă. Mișcarea pistonului este asigurată de un mecanism bielă-arbore cotit și are loc între două poziții extreme: punctul mort interior și punctul mort exterior. În punctul mort interior PMI, pistonul este în interiorul cilindrului și volumul acestuia este minim. La punctul mort exterior PME, pistonul se găsește la cealaltă extremitate în raport cu PMI și volumul acestuia este maxim.</p>
+                                <p class="dvotext">În momentul deplasării pistonului de la punctul mort interior la punctul mort exterior, supapa de admisie 6 (vezi imaginea din stânga) este deschisă și prin urmare în cilindru intră încărcătură proaspătă (din cauza depresiunii create de mișcarea pistonului). Așadar are loc admisia (curba g-a din diagramă). În continuare, prin deplasarea pistonului de la punctul mort exterior la punctul mort interior, are loc comprimarea încărcăturii, ambele supape (6 și 7) fiind închise. Până ca pistonul să ajungă la punctul mort interior, încărcătura este aprinsă și arde degajând căldură, ceea ce duce la mărirea presiunii în cilindru.</p>
+                                <p class="dvotext" style=" text-transform: uppercase; color: #2e3d6e; font-family: 'Michroma', sans-serif;letter-spacing: 2px;"><b>Istoric</b></p>
+                                <p class="dvotext">Nikolaus August Otto a fost inventatorul german al primului motor cu combustie internă care ardea în mod eficient combustibilul direct într-o cameră cu piston. Deși au mai fost inventate și alte motoare cu combustie internă, acestea nu s-au bazat pe patru timpi separați. Conceptul de patru timpi este posibil să fi fost deja discutat la data invenției lui Otto, dar el a fost primul care l-a pus în practică.</p>
+                                <p class="dvotext" style=" text-transform: uppercase; color: #2e3d6e; font-family: 'Michroma', sans-serif;letter-spacing: 2px;"><b>Materialul de lucru și modul de aprindere a acestuia:</b></p>
+                                <p class="dvotext">În timpul combustiei benzina este combinata cu aerul pentru a se creea vapori, care odata aprinsi produc putere (moleculele de benzina au dimensiuni mai mici deca cele de motorina deoarece este mai rafinata).</p>
+                                <p class="dvotext">La benzina amestecul este aprins de o scateie produsa de o bujie.</p>
+                                <p class="dvotext">Motoarele pe benzina au mai multi cai putere, astfel ca vor avea mai multe rotatii si implicit o acceleratie mai mare.</p>
+                                <p class="dvotext">Motoarele pe benzină sunt mai ușoare decât motoarele Diesel.</p>
+                              </td>
+                            </tr>
+                          </table>
+                    </div>
+                      <br>
+                      <br>
+                    </div>
+                    </div>  
+            </div>
+        </section>
         <script type="text/javascript" src="assets/js/mobile.js"></script>
         <script src="https://kit.fontawesome.com/6edd906466.js" crossorigin="anonymous"></script>
 </body>
